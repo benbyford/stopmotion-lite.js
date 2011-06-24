@@ -1,0 +1,89 @@
+/**
+ *
+ * stopmotion-lite.js by Ben Byford Design, www.benbyford.com
+ *
+ */
+/** reset ***/
+*{margin: 0;padding: 0;outline: 0 none;border-collapse: collapse;border: none;text-decoration: none; }
+body { background: black; }
+
+body, input, textarea, table {
+	font-family: georgia, "Times New Roman", Times, serif; 
+	font-size: 14px;
+	color: #ddd; 
+}
+input, textarea{
+	color: #ddd;
+	background: #664312;
+}
+blockquote{
+	font-family: helvetica;
+	font-size: 1.2em;
+	padding-left: 20px;
+	color: #bbb;
+}
+h1, h2, h3, h4, .topnav a, #footer p,
+#footer a{
+	font-family:georgia, Britanni, "Times New Roman", Times, serif; 
+	letter-spacing: 1px;
+	font-smooth:1em;
+}
+h1, h2, h3, h4{
+	margin-bottom: 10px;
+	color: #ac6a28;
+}
+h1{ font-size: 1.9em;}
+h2{ font-size: 1.8em;}
+h3{ font-size: 1.5em;}
+h4{ font-size: 1.4em;}
+a{
+	color: #cc5200;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus{ color: #d12200;}
+
+#page{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+/***** stopmotion-lite css *******/
+
+#slides{
+	margin: 0 auto;
+}
+#slideImages{
+	opacity: .6;
+	background: url('images/quality6.jpg') 0 10px  no-repeat;
+	height: 415px;
+}
+	#slideImages img{ 
+		padding-top: 10px;
+		margin: 0 auto;
+		display: none;
+	}
+	#slideImages img:first-child{ 
+		display: block;
+	}
+#loading{
+	position: absolute;
+	top: 300px;
+	left: 49%;
+	z-index: 999;
+}
+#playPause{
+	position: absolute;
+	display: none;
+	padding: 0px;
+	margin: 20px 0 0 10px;
+	z-index: 999;
+	height: 20px;
+	width: 20px;
+	background: url('img/play_pause.png') no-repeat;
+	opacity: .5;
+}
+	#playPause:hover, #playPause:active{
+		opacity: 1;
+	}

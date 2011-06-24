@@ -1,0 +1,48 @@
+Stopmotion-lite.js v1.1
+By Ben Byford
+
+LICENCE:
+
+stopmotion-lite.js by Ben Byford is licensed under a Creative Commons Attribution 3.0 Unported License.
+Based on a work at benbyford.com.
+
+
+USEAGE:
+
+JS – defaults: stopmotion(’#slideImages’,‘100’, ‘1’)
+
+$(function(){ 
+	stopmotion(divID, animationSpeed, pauseButton); 
+	
+	//pauseButton 1 on / 0 off 
+});
+
+CSS
+#slideImages{ 
+	opacity: .6; 
+	background: url('images/quality6.jpg') 0 10px no-repeat; 
+	height: 415px; 
+	} 
+#slideImages img{ 
+	padding-top: 10px; 
+	margin: 0 auto; 
+	display: none; 
+	} 
+#slideImages img:first-child{ 
+	display: block; 
+	} 
+#loading{ 
+	position: absolute; 
+	top: 300px; 
+	left: 49%; 
+	z-index: 999; 
+	} 
+
+
+VERSIONS:
+1.1 - 29/05/2011
+	Added
+		pause/play button
+		Option to added/remove pause/play button
+	
+1.0 - 27/05/2011
