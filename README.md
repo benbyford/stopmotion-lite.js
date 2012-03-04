@@ -43,7 +43,7 @@ CSS
 
 
 VERSIONS:
-1.1 - 29/05/2011
+1.2 - 04/03/2012
 	Added
 		navButton - forward and back buttons while animation regardless if animation is paused or not
 		Option to added/remove navButtons button
