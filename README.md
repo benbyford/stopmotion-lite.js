@@ -1,4 +1,4 @@
-Stopmotion-lite.js v1.1
+Stopmotion-lite.js v1.2
 By Ben Byford
 
 LICENCE:
@@ -9,13 +9,16 @@ Based on a work at benbyford.com.
 
 USEAGE:
 
-JS – defaults: stopmotion(’#slideImages’,‘100’, ‘1’)
+JS – defaults: stopmotion(’#slideImages’,‘100’, ‘1’, '0')
 
 $(function(){ 
-	stopmotion(divID, animationSpeed, pauseButton); 
+	stopmotion(divID, animationSpeed, pauseButton, navButton); 
 	
-	//pauseButton 1 on / 0 off 
+	//divID = class or id of target div container with images 
+	//pauseButton 1 on / 0 off
+	//navButton 1 on / 0 off 
 });
+
 
 CSS
 #slideImages{ 
@@ -36,10 +39,17 @@ CSS
 	top: 300px; 
 	left: 49%; 
 	z-index: 999; 
-	} 
+	}
 
 
 VERSIONS:
+1.1 - 29/05/2011
+	Added
+		navButton - forward and back buttons while animation regardless if animation is paused or not
+		Option to added/remove navButtons button
+	Change
+		Class name 'first' - changed to 'firstSlide' as not to conflict with other classes in a pages' css
+	
 1.1 - 29/05/2011
 	Added
 		pause/play button
