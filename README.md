@@ -1,11 +1,6 @@
 Stopmotion-lite.js v1.2
 By Ben Byford
 
-LICENCE:
-
-stopmotion-lite.js by Ben Byford is licensed under a Creative Commons Attribution 3.0 Unported License.
-Based on a work at benbyford.com.
-
 
 USEAGE:
 
